@@ -1,0 +1,13 @@
+* text=auto eol=lf
+
+*.swift text diff=swift
+*.sh text eol=lf
+*.md text eol=lf
+*.plist text eol=lf
+
+*.dmg binary
+*.pkg binary
+*.p12 binary
+*.pfx binary
+*.cer binary
+*.crt binary

@@ -1,0 +1,13 @@
+magctrl
+Copyright (C) 2026 magctrl contributors
+
+The AppleSMC transport in Sources/MagCtrlSMC/AppleSMC.swift is adapted from
+MagHue, Copyright (C) 2026 Kamen Levi, with contributions credited to Peter
+Levi. The source version reviewed for this adaptation was commit:
+
+    b102ed78c61b337ab43c89382a4fad7007a6f084
+
+MagHue source: https://github.com/kamenlevi/MagHue
+
+MagHue and magctrl are distributed under the GNU General Public License,
+version 3 or (at your option) any later version. See LICENSE.

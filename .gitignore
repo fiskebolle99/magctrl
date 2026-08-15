@@ -1,0 +1,44 @@
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Xcode and editor-local state
+DerivedData/
+xcuserdata/
+*.xcuserstate
+.idea/
+.vscode/
+*.swp
+*~
+
+# Release products
+dist/
+*.dmg
+*.pkg
+*.xcarchive/
+
+# Local release signing workflow
+/scripts/build-signed-dmg.sh
+/scripts/signing-identity.sh
+/Tests/PackagingTests.sh
+/Tests/SigningIdentityTests.sh
+
+# Signing material and local secrets
+*.p12
+*.pfx
+*.cer
+*.crt
+*.key
+*.pem
+*.mobileprovision
+*.provisionprofile
+.env
+.env.*
+!.env.example
+
+# macOS metadata
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+Icon?
