@@ -13,13 +13,19 @@ Use one of these modes:
 
 Use `magctrl status` to show the selected mode.
 
-## Requirements
+## Install requirements
 
 - An Apple silicon MacBook with MagSafe 3
 - macOS 14 or later
-- Xcode Command Line Tools
+- An administrator account
 
-Use this command to install the build tools:
+These requirements apply when you use a prebuilt release.
+
+## Build requirements
+
+Install Xcode or Xcode Command Line Tools to build `magctrl` from source.
+
+Use this command to install Xcode Command Line Tools:
 
 ```console
 $ xcode-select --install
